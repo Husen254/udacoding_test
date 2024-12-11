@@ -1,0 +1,86 @@
+/* Atur body */
+body {
+    background-color: #00d9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* Atur form */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Maksimal lebar form */
+    box-sizing: border-box;
+}
+
+/* Atur label */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Atur input */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Atur tombol login */
+button[type="submit"] {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Atur pesan error */
+span {
+    color: red;
+    font-size: 12px;
+    display: block; /* Pesan error di baris baru */
+    margin-top: -5px; /* Atur agar dekat dengan input */
+    margin-bottom: 5px; /* Jarak antar elemen */
+}
+
+/* Link ke halaman daftar */
+p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
